@@ -1,0 +1,34 @@
+Nome: João Arthur Costa Oliveira
+Matricula: 37023623
+
+Explicação do Código:
+Estrutura HTML:
+
+Incluímos um elemento <h1> com id="titulo", para facilitar sua seleção no JavaScript.
+O JavaScript é carregado no final do body para garantir que os elementos HTML sejam carregados antes da execução do script.
+Função mudarBG:
+
+Recebe a cor fornecida pelo usuário.
+Usa document.body.style.backgroundColor para alterar a cor do fundo da página.
+A cor do texto do <h1> é alterada com base na cor do fundo:
+Preto (black ou #000000): texto fica branco.
+Branco (white ou #ffffff): texto fica preto.
+Qualquer outra cor: o texto mantém a cor padrão (restaurada com uma string vazia no estilo CSS).
+Captura da Cor com prompt:
+
+Solicita ao usuário que insira o nome ou código hexadecimal de uma cor.
+Se o usuário não inserir nada, um alerta informa que nenhuma cor foi escolhida.
+Execução Condicional:
+
+Usa estruturas if e else if para determinar a cor do texto do <h1> com base na entrada.
+Fluxo:
+O usuário é solicitado a inserir uma cor no prompt.
+O valor fornecido é passado como argumento para a função mudarBG.
+O fundo da página é alterado, e a lógica da cor do texto do <h1> é aplicada conforme o fundo escolhido.
+Com isso, o código pratica os conceitos de manipulação do DOM, uso de funções, condições e interação com o usuário.
+
+
+
+
+
+
